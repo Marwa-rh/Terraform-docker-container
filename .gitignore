@@ -1,0 +1,14 @@
+# Local .terraform directory (contains providers/plugins)
+.terraform/
+
+# Distributed state files (may contain secrets)
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Variable files
+*.tfvars
+*.tfvars.json
+
+override.tf
+override.tf.json
